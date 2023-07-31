@@ -1,0 +1,11 @@
+1) Create a github reposistory called i.e End-to-end-Machine-Learning-Project-with-MLflow where you can make it public, add .gitignore for python and select MIT license
+
+2) Clone the reposistory in local and open it with vs code. Also Create new conda env i.e mlflow_project and activate it.
+
+3) Create template.py file and we are creating this template.py file because we need lots of files and folders to manage the code. So that I do not need to create files and folders manually because script will automatically creates all of them.
+
+4)Run template.py
+
+5) .github has .gitkeep because we will be pushing to github repo for ci-cd pipeline using github workflows.
+
+6) commit the changes to the github using=> git add . && git commit -m "folder structure added" && git push origin main
