@@ -15,3 +15,15 @@
 8) Install the packages using requirements.txt file using command => pip install -r requirements.txt
 
 9) commit the changes to the github using=> git add . && git commit -m "requirements added" && git push origin main
+
+10) Got to src/mlProject/__init__.py and add the code for logging. We are adding logging code in __init__.py so that it will be easy to import and we can ignore folders as the code or logic is written in  __init__.py file.
+
+11) Write code in main.py for logging and test it. python main.py
+
+12) Now to src/mlProject/utils/common.py It is created so that we can write all the common codes and reuse it whenever required. For example if you want to read yaml file you can write the function in utils and reuse it wherever required.
+
+13) Create common.py file code 
+
+14) Go to research/trials.ipynb and understand the working of ConfigBox and its functionality. Then understand about @ensure_annotations. ensure_annotations is useful when miss any datatype when passing the arguments.
+
+15) 
