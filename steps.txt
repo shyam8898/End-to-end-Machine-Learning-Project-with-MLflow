@@ -26,4 +26,28 @@
 
 14) Go to research/trials.ipynb and understand the working of ConfigBox and its functionality. Then understand about @ensure_annotations. ensure_annotations is useful when miss any datatype when passing the arguments.
 
-15) 
+15) Click on source controls on left hand side and type commit message and commit the code to github
+
+16) Update ReadMe.md file to add workflows
+
+17) Create 01_data_ingestion.ipynb file under research/01_data_ingestion.ipynb
+
+18) Update the config/config.yaml and enter the required config details
+
+19) add code to constants/__init__.py
+
+20) Add the code to research/01_data_ingestion.ipynb for returning file path
+
+21) Add key:val to schema.yaml & params.yaml
+
+22) Add code from research/01_data_ingestion.ipynb to src/mlProject/entity/config_entity.py for DataIngestionConfig
+
+23) Add code from research/01_data_ingestion.ipynb to src/mlProject/config/configuration.py for ConfigurationManager
+
+24) Add src/mlProject/components/data_ingestion.py and add code to it
+
+25) Add src/mlProject/pipeline/stage_01_data_ingestion.py and add code to it
+
+26) Add code to main.py for data_ingestion
+
+27) Click on source controls on left hand side and type commit message "data ingestion added" and commit the code to github
