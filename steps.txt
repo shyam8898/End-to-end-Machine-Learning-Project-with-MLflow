@@ -103,3 +103,31 @@ Model Training
 49) Create src/mlProject/components/model_trainer.py in components
 
 50) Create src/mlProject/pipeline/stage_04_model_trainer.py file
+
+51) Add model training logic in main.py
+
+Model Evaluation
+
+Login to https://dagshub.com/
+
+Signin with github and connect to your repo and run below commands in terminal
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/shyam8898/End-to-end-Machine-Learning-Project-with-MLflow.mlflow
+
+export MLFLOW_TRACKING_USERNAME=shyam8898 
+
+export MLFLOW_TRACKING_PASSWORD=05d1aaa046482931f0fc83c480463e833cf5d9b0
+
+44) Create research/05_model_evaluation.ipynb file and run It
+
+45) Add config for model evaluation part in config/config.yaml
+
+46) Add entity for model evaluation in src/mlProject/entity/config_entity.py
+
+48) Add configuration for model evaluation in src/mlProject/config/configuration.py
+
+49) Create src/mlProject/components/model_evaluation.py in components
+
+50) Create src/mlProject/pipeline/stage_05_model_evaluation.py file
+
+51) Add model training logic in main.py
