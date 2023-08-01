@@ -58,14 +58,48 @@
 
 30) Add details to schema.yaml
 
+Data Validation steps
+
 31) Create research/02_data_validation.ipynb file and run it.
 
-22) Add code from research/02_data_validation.ipynb to src/mlProject/entity/config_entity.py for DataValidation
+32) Add code from research/02_data_validation.ipynb to src/mlProject/entity/config_entity.py for DataValidation
 
-23) Add code from research/02_data_validation.ipynb to src/mlProject/config/configuration.py for ConfigurationManager
+33) Add code from research/02_data_validation.ipynb to src/mlProject/config/configuration.py for ConfigurationManager
 
-24) Add src/mlProject/components/data_validation.py and add code to it
+34) Add src/mlProject/components/data_validation.py and add code to it
 
-25) Add src/mlProject/pipeline/stage_02_data_validation.py and add code to it
+35) Add src/mlProject/pipeline/stage_02_data_validation.py and add code to it
 
-26) Add code to main.py for data_ingestion
+36) Add code to main.py for data_ingestion
+
+Data transformation
+
+37) Add config for Data transformation part in config/config.yaml
+
+38) Create research/03_data_transformation.ipynb file and run It
+
+39) Add entity for data transformation in src/mlProject/entity/config_entity.py
+
+40) Add configuration for data transformation in src/mlProject/config/configuration.py
+
+41) Create src/mlProject/components/data_transformation.py in components
+
+42) Create src/mlProject/pipeline/stage_03_data_transformation.py file
+
+43) Add data_transformation logic in main.py
+
+Model Training 
+
+44) Create research/04_model_trainer.ipynb file and run It
+
+45) Add config for model training part in config/config.yaml
+
+46) Add entity for model training in src/mlProject/entity/config_entity.py
+
+47) Add parameters for model in params.yaml
+
+48) Add configuration for model training in src/mlProject/config/configuration.py
+
+49) Create src/mlProject/components/model_trainer.py in components
+
+50) Create src/mlProject/pipeline/stage_04_model_trainer.py file
