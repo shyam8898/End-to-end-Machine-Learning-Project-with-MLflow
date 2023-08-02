@@ -131,3 +131,11 @@ export MLFLOW_TRACKING_PASSWORD=05d1aaa046482931f0fc83c480463e833cf5d9b0
 50) Create src/mlProject/pipeline/stage_05_model_evaluation.py file
 
 51) Add model training logic in main.py
+
+52 create src/mlProject/pipeline/prediction.py
+
+53) create app.py templates and static
+
+54) create dockerfile
+
+55) create .github/workflows/main.yaml
