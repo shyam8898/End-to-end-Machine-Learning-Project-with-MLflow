@@ -23,11 +23,11 @@ https://github.com/shyam8898/End-to-end-Machine-Learning-Project-with-MLflow
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n mlproj python=3.8 -y
+conda create -n mlflow_project python=3.8 -y
 ```
 
 ```bash
-conda activate mlproj
+conda activate mlflow_project
 ```
 
 
