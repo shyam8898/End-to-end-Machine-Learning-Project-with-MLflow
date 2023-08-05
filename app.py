@@ -7,7 +7,7 @@ from mlProject.pipeline.prediction import PredictionPipeline
 
 app = Flask(__name__) # initializing a flask app
 
-@app.route('/',methods=['GET'])  # route to display the home page
+@app.route('/')  # route to display the home page
 def homePage():
     return render_template("index.html")
 
@@ -18,8 +18,8 @@ def training():
     return "Training Successful!" 
 
 
-@app.route('/predict',methods=['POST','GET']) # route to show the predictions in a web UI
-def index():
+@app.route('/predict',methods=['POST']) # route to show the predictions in a web UI
+def predict_datapoint():
     if request.method == 'POST':
         try:
             #  reading the inputs given by the user
@@ -41,8 +41,8 @@ def index():
             
             obj = PredictionPipeline()
             predict = obj.predict(data)
-
-            return render_template('results.html', prediction = str(predict))
+            prediction_result = f"Wine Quality: {round(predict[0],4)}"
+            return render_template('index.html', results = prediction_result)
 
         except Exception as e:
             print('The Exception message is: ',e)
@@ -54,4 +54,4 @@ def index():
 
 if __name__ == "__main__":
 	# app.run(host="0.0.0.0", port = 8080, debug=True)
-	app.run(host="0.0.0.0", port = 8080)
+	app.run(host="0.0.0.0", port = 8080,debug=True)
